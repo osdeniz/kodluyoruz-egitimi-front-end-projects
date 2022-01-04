@@ -1,0 +1,19 @@
+#greeting{
+    font-family: serif;
+    color: beige;
+    font-weight: bolder;
+}
+
+.clock {
+    text-align: center;
+    color: #ffffff;
+    font-size:3rem;
+    font-family: serif;
+}
+
+.history {
+    text-align: center;
+    color: #ffffff;
+    font-size:3rem;
+    font-family: serif;
+}

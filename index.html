@@ -1,19 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kodluyoruz JavaScript - Ödev 1</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Merhaba !</title>
 </head>
 
-<body>
 
-  <header>
-
+<body class="container" style="background-color: cadetblue; color: white; text-align: center;">
+  <div class="row">
+    <div style="margin-bottom:none;">
+      <div class="text-center mt-1" style="font-size: 4rem;">Merhaba !</div>
+      <div id="userQuery" style="font-size: 4rem;"></div>
     </div>
-  </header>
+    <div class="clock">Şu anda saat:
+      <span id="MyClockDisplay" style=" color: chocolate;" onload="showTime()"> </span>
+    </div>
+    <div style="text-align: center;" class="history"> Bu gün günlerden: <span id="MyHistoryDisplay"
+      style=" color: chocolate;" onload="showHistory()"></span></div>
+  </div>
+    <h3> Kodluyoruz Web Development Patikası'nın<br> Javascript
+      bölümü <span style="color: orange;">1.Ödevindesiniz.</span></h3>
+  </div>
+
+
+  <!-- JS -->
+  <script src="application.js"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+    crossorigin="anonymous"></script>
+
 
 </body>
 
